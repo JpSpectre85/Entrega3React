@@ -1,0 +1,78 @@
+.resident{
+    width: 100%;
+    max-width: 14em;
+    border-radius: 0.8em;
+    overflow: hidden;
+    background-color: #084851;
+    position: relative;
+    color: white;
+    transition: transform 100ms ease, box-shadow 100me ease;
+}
+.resident:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 1.5em #0008;
+}
+
+.resident_status{
+    position: absolute;
+    top: 10%;
+    background-color: #084851;
+    width: 40%;
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+    padding: 0.4em 0.6em;
+    border-radius: 0 0.6em 0.6em 0;
+}
+
+.resident_status-circle{
+    width: 1.2em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.Dead{
+background-color: red;
+}
+.Alive{
+background-color: green;
+}
+.resident_status-value{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.resident_body{
+    padding: 1em 1em 2em;
+}
+.resident_name{
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+.resident_separator{
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    border-color: grey;
+}
+
+.resident_stats{
+    display: grid;
+    gap: 0.7em;
+}
+
+.resident_stat_item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.resident_stat_label{
+    font-size: 0.9;
+    color: #999;
+    padding-left: 1em;
+    font-weight: 300;
+}
+
+
+
+
