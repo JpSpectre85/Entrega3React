@@ -27,7 +27,7 @@ function App() {
   return (
 
     <div className='app'>
-      <img src="../public/banner.png" alt="" className='app_banner'/>
+      <img src="/banner.png" alt="" className='app_banner'/>
       <form className='app_form' onSubmit={handleLocation}>
         <input className='app_input' ref={inputLocation} type="text" />
         <button className='app_btn'>Search</button>
